@@ -1,0 +1,37 @@
+//- Custom Configuration
+block config
+  //- Setup site's base URL to match the "baseUrl" key within `package.json`
+  //- Otherwise default to relative pathing
+  - var baseUrl = config.baseUrl || './'
+
+doctype html
+
+<!--[if lt IE 9]>
+<html class='lt-ie9 no-js' lang='ru'>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+<html class='no-js' lang='ru'>
+<!--<![endif]-->
+
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  block title
+    title fanber
+  meta(name='description', content= 'A new Yeogurt application')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  block stylesheets
+    link(rel='stylesheet', href= baseUrl + 'styles/main.css')
+
+body
+  <!--[if lt IE 9]>
+  <p class='browsehappy'>Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href='http://browsehappy.com/'>обновите его</a>, чтобы приложение работало корректно.</p>
+  <![endif]-->
+
+  block content
+
+  block scripts
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    script(src= baseUrl + 'scripts/main.js')
+
+</html>

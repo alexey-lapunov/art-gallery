@@ -1,0 +1,24 @@
+@import '../_modules/**/*';
+@import './**/*';
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// Styling on warning for users on IE7 or below
+.browsehappy {
+  text-align: center;
+  margin: 0;
+  background: #fff8e2;
+  color: #000;
+  padding: 0.5em 0;
+}
+body{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}

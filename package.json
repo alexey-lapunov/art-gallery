@@ -7,8 +7,7 @@
     "gulp-pug": "^3.3.0",
     "gulp-sass-glob": "^1.0.8",
     "jquery": "~2.2.0",
-    "normalize.css": "~3.0.3",
-    "pug": "^2.0.0-beta11"
+    "normalize.css": "~3.0.3"
   },
   "devDependencies": {
     "autoprefixer": "~6.3.1",

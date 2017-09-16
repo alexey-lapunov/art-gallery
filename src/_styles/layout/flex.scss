@@ -1,0 +1,1055 @@
+%row{
+	display: flex;
+	flex-direction: row;
+	&--wrap{
+		flex-wrap: wrap;
+	}
+	&--center-x{
+		justify-content: center;
+	}
+	&--start-x{
+		justify-content: flex-start;
+	}
+	&--end-x{
+		justify-content: flex-end;
+	}
+	&--between-x{
+		justify-content: space-between;
+	}
+	&--around-x{
+		justify-content: space-around;
+	}
+	&--start-y{
+		align-items: flex-start;
+	}
+	&--center-y{
+		align-items: center;
+	}
+	&--end-y{
+		align-items: flex-end;
+	}
+	&--stretch-y{
+		align-items: stretch;
+	}
+}
+%column{
+	display: flex;
+	flex-direction: column;
+	&--wrap{
+		flex-wrap: wrap;
+	}
+	&--center-y{
+		justify-content: center;
+	}
+	&--start-y{
+		justify-content: flex-start;
+	}
+	&--end-y{
+		justify-content: flex-end;
+	}
+	&--between-y{
+		justify-content: space-between;
+	}
+	&--around-y{
+		justify-content: space-around;
+	}
+	&--start-x{
+		align-items: flex-start;
+	}
+	&--center-x{
+		align-items: center;
+	}
+	&--end-x{
+		align-items: flex-end;
+	}
+	&--stretch-x{
+		align-items: stretch;
+	}
+}
+%hidden{
+	display: none !important;
+}
+//breakpoints:
+@media(max-width: 479px){
+	%hidden-xs-p{
+		display: none !important;
+	}
+	%row-xs-p{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-xs-p{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(min-width: 480px)and(max-width: 767px){
+	%hidden-xs-l{
+		display: none !important;
+	}
+	%row-xs-l{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-xs-l{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(max-width: 767px){
+	%hidden-xs{
+		display: none !important;
+	}
+	%row-xs{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-xs{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(min-width: 768px)and(max-width: 1023px){
+	%hidden-sm{
+		display: none !important;
+	}
+	%row-sm{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-sm{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(min-width: 1024px)and(max-width: 1399px){
+	%hidden-md{
+		display: none !important;
+	}
+	%row-md{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-md{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(min-width: 1400px)and(max-width: 1599px){
+	%hidden-lg{
+		display: none !important;
+	}
+	%row-lg{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-lg{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+
+@media(min-width: 1600px){
+	%hidden-xxl{
+		display: none !important;
+	}
+	%row-xxl{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-xxl{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+
+@media(min-width: 768px){
+	%hidden-sm-more{
+		display: none !important;
+	}
+	%row-sm-more{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-sm-more{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+@media(min-width: 1024px){
+	%hidden-md-more{
+		display: none !important;
+	}
+	%row-md-more{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-md-more{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+@media(min-width: 1400px){
+	%hidden-lg-more{
+		display: none !important;
+	}
+	%row-lg-more{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-lg-more{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+@media(max-width: 1023px){
+	%hidden-sm-less{
+		display: none !important;
+	}
+	%row-sm-less{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-sm-less{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+
+@media(max-width: 1399px){
+	%hidden-md-less{
+		display: none !important;
+	}
+	%row-md-less{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-md-less{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}
+
+
+@media(max-width: 1599px){
+	%hidden-lg-less{
+		display: none !important;
+	}
+	%row-lg-less{
+		display: flex;
+		flex-direction: row;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-x{
+			justify-content: center;
+		}
+		&--start-x{
+			justify-content: flex-start;
+		}
+		&--end-x{
+			justify-content: flex-end;
+		}
+		&--between-x{
+			justify-content: space-between;
+		}
+		&--around-x{
+			justify-content: space-around;
+		}
+		&--start-y{
+			align-items: flex-start;
+		}
+		&--center-y{
+			align-items: center;
+		}
+		&--end-y{
+			align-items: flex-end;
+		}
+		&--stretch-y{
+			align-items: stretch;
+		}
+	}
+	%column-lg-less{
+		display: flex;
+		flex-direction: column;
+		&--wrap{
+			flex-wrap: wrap;
+		}
+		&--center-y{
+			justify-content: center;
+		}
+		&--start-y{
+			justify-content: flex-start;
+		}
+		&--end-y{
+			justify-content: flex-end;
+		}
+		&--between-y{
+			justify-content: space-between;
+		}
+		&--around-y{
+			justify-content: space-around;
+		}
+		&--start-x{
+			align-items: flex-start;
+		}
+		&--center-x{
+			align-items: center;
+		}
+		&--end-x{
+			align-items: flex-end;
+		}
+		&--stretch-x{
+			align-items: stretch;
+		}
+	}
+}

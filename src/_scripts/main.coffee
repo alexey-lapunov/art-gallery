@@ -1,4 +1,3 @@
-header = require '../_modules/header/header'
-
-$(document).ready ->
-	new header()
+callmodule = require './functions/callmodule'
+document.addEventListener "DOMContentLoaded", ->
+	new callmodule()

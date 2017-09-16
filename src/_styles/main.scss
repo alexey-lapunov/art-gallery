@@ -1,5 +1,7 @@
-@import '../_modules/**/*';
+@import './core/variables';
 @import './**/*';
+@import '../_modules/**/*';
+
 *,
 *:before,
 *:after {
@@ -8,7 +10,7 @@
   box-sizing: border-box;
 }
 
-// Styling on warning for users on IE7 or below
+// Styling on warning for users on IE10 or below
 .browsehappy {
   text-align: center;
   margin: 0;
